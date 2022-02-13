@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Real-time NEO
+description: describing the real-time dynamics with nuclear quantum effects included
 img: assets/img/3.jpg
 importance: 2
 category: work

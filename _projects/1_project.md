@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Cavity molecular dynamics
+description: a toolkit for simulating vibrational strong coupling
+img: assets/img_proj/cavmd_setup.png
+redirect: https://github.com/TaoELi/cavity-md-ipi
 importance: 1
 category: work
 ---
