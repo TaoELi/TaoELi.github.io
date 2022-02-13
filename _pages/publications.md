@@ -8,6 +8,7 @@ nav: true
 ---
 <!-- _pages/publications.md -->
 
+See also [google scholar](https://scholar.google.com/citations?user=UfOqjbwAAAAJ&hl=en) for a complete publication history.
 
 <div class="publications">
 <h1 class="year">Preprints</h1>
