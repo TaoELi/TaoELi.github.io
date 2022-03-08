@@ -27,6 +27,8 @@ In order to better model VSC, I have developed a numerical scheme called [cavity
 
   * [13] **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Collective vibrational strong coupling effects on molecular vibrational relaxation and energy transfer: Numerical insights via cavity molecular dynamics simulations. [Angew. Chem. Int. Ed. 2021, 60(28), 15533-15540]( https://doi.org/10.1002/anie.202103920).
 
+  * [17] **Li, T. E.**; Nitzan, A.; Hammes-Schiffer, S.; Subotnik, J. E. Quantum Simulations of Vibrational Strong Coupling via Path Integrals. [arXiv:2203.03001, 2022](https://arxiv.org/abs/2203.03001).
+
 * How to understand IR photo-induced polariton dynamics and what novel physical and chemical processes can we find?
   * [12] **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Cavity molecular dynamics simulations of vibrational polariton-enhanced molecular nonlinear absorption. [J. Chem. Phys. 2021, 154 (9), 094124](https://doi.org/10.1063/5.0037623).
 
