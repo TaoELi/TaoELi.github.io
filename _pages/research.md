@@ -21,20 +21,20 @@ In order to better model VSC, I have developed a numerical scheme called [cavity
 
 * Can we understand the Ebbesen experiments on resonant VSC catalysis from a theoretical perspective?
 
-  * [10] **Li, T. E.**; Nitzan, A.; Subotnik, J. E. On the origin of ground-state vacuum-field catalysis: Equilibrium consideration. [J. Chem. Phys. 2020, 152 (23), 234107](https://doi.org/10.1063/5.0006472).
+  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. On the origin of ground-state vacuum-field catalysis: Equilibrium consideration. [J. Chem. Phys. 2020, 152 (23), 234107](https://doi.org/10.1063/5.0006472).
 
-  * [11] **Li, T. E.**, Subotnik, J. E., Nitzan, A. Cavity molecular dynamics simulations of liquid water under vibrational ultrastrong coupling. [Proc. Natl. Acad. Sci., 2020, 117(31), 18324–18331](https://doi.org/10.1073/pnas.2009272117).
+  * **Li, T. E.**, Subotnik, J. E., Nitzan, A. Cavity molecular dynamics simulations of liquid water under vibrational ultrastrong coupling. [Proc. Natl. Acad. Sci., 2020, 117(31), 18324–18331](https://doi.org/10.1073/pnas.2009272117).
 
-  * [13] **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Collective vibrational strong coupling effects on molecular vibrational relaxation and energy transfer: Numerical insights via cavity molecular dynamics simulations. [Angew. Chem. Int. Ed. 2021, 60(28), 15533-15540]( https://doi.org/10.1002/anie.202103920).
+  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Collective vibrational strong coupling effects on molecular vibrational relaxation and energy transfer: Numerical insights via cavity molecular dynamics simulations. [Angew. Chem. Int. Ed. 2021, 60(28), 15533-15540]( https://doi.org/10.1002/anie.202103920).
 
-  * [17] **Li, T. E.**; Nitzan, A.; Hammes-Schiffer, S.; Subotnik, J. E. Quantum Simulations of Vibrational Strong Coupling via Path Integrals. [arXiv:2203.03001, 2022](https://arxiv.org/abs/2203.03001).
+  * **Li, T. E.**; Nitzan, A.; Hammes-Schiffer, S.; Subotnik, J. E. Quantum Simulations of Vibrational Strong Coupling via Path Integrals. [arXiv:2203.03001, 2022](https://arxiv.org/abs/2203.03001).
 
 * How to understand IR photo-induced polariton dynamics and what novel physical and chemical processes can we find?
-  * [12] **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Cavity molecular dynamics simulations of vibrational polariton-enhanced molecular nonlinear absorption. [J. Chem. Phys. 2021, 154 (9), 094124](https://doi.org/10.1063/5.0037623).
+  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Cavity molecular dynamics simulations of vibrational polariton-enhanced molecular nonlinear absorption. [J. Chem. Phys. 2021, 154 (9), 094124](https://doi.org/10.1063/5.0037623).
 
-  * [15] **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Polariton relaxation under vibrational strong coupling: Comparing cavity molecular dynamics simulations against Fermi's golden rule rate. [arXiv. 2021](https://arxiv.org/abs/2111.12770).
+  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Polariton relaxation under vibrational strong coupling: Comparing cavity molecular dynamics simulations against Fermi's golden rule rate. [arXiv. 2021](https://arxiv.org/abs/2111.12770).
 
-  * [16] **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Energy-efficient pathway for selectively exciting solute molecules to high vibrational states via solvent vibration-polariton pumping. [arXiv. 2021](https://arxiv.org/abs/2104.15121).
+  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Energy-efficient pathway for selectively exciting solute molecules to high vibrational states via solvent vibration-polariton pumping. [arXiv. 2021](https://arxiv.org/abs/2104.15121).
 
 
 <br>
@@ -45,7 +45,17 @@ In order to better model VSC, I have developed a numerical scheme called [cavity
 
 Nuclei, especially protons, are intrinsically quantum-mechanical. How to properly model the quantum nature of protons is a long-standing question in physical and theoretical chemistry. To date, one of the most successful approaches towards modeling protonic quantum effects for realistic molecules is path-integral based methods such as **ring-polymer molecular dynamics (RPMD)**. However, RPMD does not offer a perfect answer on  describing nonequilibrium real-time proton dynamics  or nonadiabatic coupled electron-proton dynamics. From the other perspective, protonic quantum effects can also be captured by solving the Schrodinger equation directly. This **nuclear-electronic orbital (NEO)** approach is formally exact, but finding a computationally efficient way for solving  the Schrodinger equation is nontrivial.
 
-I am interested in method development on efficiently simulating nuclear quantum effects for real-time, nonadiabatic proton dynamics both in free space and under strong light-matter interactions. Exciting results will be reported soon.
+I am interested in method development on efficiently simulating nuclear quantum effects for real-time, nonadiabatic proton dynamics both in free space and under strong light-matter interactions.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/semiclassical_rt_neo.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+As a first project along this direction, one illustrative example is that, by combining the real-time dynamics of classical cavity photons and quantum electrons and protons, the strong coupling effect on nonadiabatic dynamics of proton transfer can be efficiently captured.
+
+* **Li, T. E.**; Tao, Z.; Hammes-Schiffer, S. Semiclassical Real-Time Nuclear-Electronic Orbital Dynamics for Molecular Polaritons: Unified Theory of Electronic and Vibrational Strong Couplings. [arXiv:2203.04952, 2022](https://arxiv.org/abs/2203.04952v1).
 
 <br>
 <hr>
@@ -63,4 +73,4 @@ While strong light-matter interactions is a hot topic of research, I am also int
 
 Of course, it is nontrivial to find such a good balance, and the journey towards searching an optimal algorithm will also help better understand the meaning of "quantum" and "classical".
 
-* [9] **Li, T. E.**; Chen, H.-T.; Nitzan, A.; Subotnik, J. E. Quasiclassical modeling of cavity quantum electrodynamics. [Phys. Rev. A. 2020, 101 (3), 033831](https://doi.org/10.1103/PhysRevA.101.033831).
+* **Li, T. E.**; Chen, H.-T.; Nitzan, A.; Subotnik, J. E. Quasiclassical modeling of cavity quantum electrodynamics. [Phys. Rev. A. 2020, 101 (3), 033831](https://doi.org/10.1103/PhysRevA.101.033831).
