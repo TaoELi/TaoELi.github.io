@@ -32,7 +32,7 @@ In order to better model VSC, I have developed a numerical scheme called [cavity
 * How to understand IR photo-induced polariton dynamics and what novel physical and chemical processes can we find?
   * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Cavity molecular dynamics simulations of vibrational polariton-enhanced molecular nonlinear absorption. [J. Chem. Phys. 2021, 154 (9), 094124](https://doi.org/10.1063/5.0037623).
 
-  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Polariton relaxation under vibrational strong coupling: Comparing cavity molecular dynamics simulations against Fermi's golden rule rate. [arXiv. 2021](https://arxiv.org/abs/2111.12770).
+  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Polariton relaxation under vibrational strong coupling: Comparing cavity molecular dynamics simulations against Fermi's golden rule rate. [J. Chem. Phys. 2022, 156 (13), 134106](https://doi.org/10.1063/5.0079784).
 
   * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Energy-efficient pathway for selectively exciting solute molecules to high vibrational states via solvent vibration-polariton pumping. [arXiv. 2021](https://arxiv.org/abs/2104.15121).
 
