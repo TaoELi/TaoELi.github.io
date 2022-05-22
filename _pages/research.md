@@ -17,22 +17,20 @@ Vibrational strong coupling (VSC), strong light-matter interactions between mole
     </div>
 </div>
 
-In order to better model VSC, I have developed a numerical scheme called [cavity molecular dynamics (CavMD)](https://github.com/TaoELi/cavity-md-ipi), in which the coupled classical dynamics between cavity modes and realistic molecules are propagated on an electronic ground state. Equipped with this numerical tool, I have been exploring how to control molecular properties with VSC. Two major questions are currently under consideration:
+In order to better model VSC, I have developed a numerical scheme called [cavity molecular dynamics (CavMD)](https://github.com/TaoELi/cavity-md-ipi), in which the coupled classical dynamics between cavity modes and realistic molecules are propagated on an electronic ground state.
+
+* **Li, T. E.**, Subotnik, J. E., Nitzan, A. Cavity molecular dynamics simulations of liquid water under vibrational ultrastrong coupling. [Proc. Natl. Acad. Sci., 2020, 117 (31), 18324–18331](https://doi.org/10.1073/pnas.2009272117).
+
+Equipped with this numerical tool, I have been exploring how to control molecular properties with VSC. Two major questions are currently under consideration:
 
 * Can we understand the Ebbesen experiments on resonant VSC catalysis from a theoretical perspective?
 
-  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. On the origin of ground-state vacuum-field catalysis: Equilibrium consideration. [J. Chem. Phys. 2020, 152 (23), 234107](https://doi.org/10.1063/5.0006472).
+  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Collective vibrational strong coupling effects on molecular vibrational relaxation and energy transfer: Numerical insights via cavity molecular dynamics simulations. [Angew. Chem. Int. Ed. 2021, 60 (28), 15533-15540]( https://doi.org/10.1002/anie.202103920).
 
-  * **Li, T. E.**, Subotnik, J. E., Nitzan, A. Cavity molecular dynamics simulations of liquid water under vibrational ultrastrong coupling. [Proc. Natl. Acad. Sci., 2020, 117(31), 18324–18331](https://doi.org/10.1073/pnas.2009272117).
-
-  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Collective vibrational strong coupling effects on molecular vibrational relaxation and energy transfer: Numerical insights via cavity molecular dynamics simulations. [Angew. Chem. Int. Ed. 2021, 60(28), 15533-15540]( https://doi.org/10.1002/anie.202103920).
-
-  * **Li, T. E.**; Nitzan, A.; Hammes-Schiffer, S.; Subotnik, J. E. Quantum Simulations of Vibrational Strong Coupling via Path Integrals. [arXiv:2203.03001, 2022](https://arxiv.org/abs/2203.03001).
+  * **Li, T. E.**; Nitzan, A.; Hammes-Schiffer, S.; Subotnik, J. E. Quantum Simulations of Vibrational Strong Coupling via Path Integrals. [J. Phys. Chem. Lett. 2022, 13 (17), 3890-3895](https://doi.org/10.1021/acs.jpclett.2c00613).
 
 * How to understand IR photo-induced polariton dynamics and what novel physical and chemical processes can we find?
   * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Cavity molecular dynamics simulations of vibrational polariton-enhanced molecular nonlinear absorption. [J. Chem. Phys. 2021, 154 (9), 094124](https://doi.org/10.1063/5.0037623).
-
-  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Polariton relaxation under vibrational strong coupling: Comparing cavity molecular dynamics simulations against Fermi's golden rule rate. [J. Chem. Phys. 2022, 156 (13), 134106](https://doi.org/10.1063/5.0079784).
 
   * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Energy-efficient pathway for selectively exciting solute molecules to high vibrational states via solvent vibration-polariton pumping. [arXiv. 2021](https://arxiv.org/abs/2104.15121).
 
@@ -55,7 +53,7 @@ I am interested in method development on efficiently simulating nuclear quantum 
 
 As a first project along this direction, one illustrative example is that, by combining the real-time dynamics of classical cavity photons and quantum electrons and protons, the strong coupling effect on nonadiabatic dynamics of proton transfer can be efficiently captured.
 
-* **Li, T. E.**; Tao, Z.; Hammes-Schiffer, S. Semiclassical Real-Time Nuclear-Electronic Orbital Dynamics for Molecular Polaritons: Unified Theory of Electronic and Vibrational Strong Couplings. [arXiv:2203.04952, 2022](https://arxiv.org/abs/2203.04952v1).
+* **Li, T. E.**; Tao, Z.; Hammes-Schiffer, S. Semiclassical Real-Time Nuclear-Electronic Orbital Dynamics for Molecular Polaritons: Unified Theory of Electronic and Vibrational Strong Couplings. [J. Chem. Theory Comput. 2022, 18 (5), 2774-2784](https://doi.org/10.1021/acs.jctc.2c00096).
 
 <br>
 <hr>
