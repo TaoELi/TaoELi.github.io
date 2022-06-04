@@ -27,8 +27,8 @@ See also [google scholar](https://scholar.google.com/citations?user=UfOqjbwAAAAJ
 <h1 class="year">Peer-Reviewed Articles</h1>
 
 {%- for y in page.years %}
-  <h3 class="year">{{y}}</h3>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+     <h3 class="year">{{y}}</h3>
+    {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
