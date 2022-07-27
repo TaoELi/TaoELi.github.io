@@ -32,7 +32,7 @@ Equipped with this numerical tool, I have been exploring how to control molecula
 * How to understand IR photo-induced polariton dynamics and what novel physical and chemical processes can we find?
   * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Cavity molecular dynamics simulations of vibrational polariton-enhanced molecular nonlinear absorption. [J. Chem. Phys. 2021, 154 (9), 094124](https://doi.org/10.1063/5.0037623).
 
-  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Energy-efficient pathway for selectively exciting solute molecules to high vibrational states via solvent vibration-polariton pumping. [arXiv. 2021](https://arxiv.org/abs/2104.15121).
+  * **Li, T. E.**; Nitzan, A.; Subotnik, J. E. Energy-efficient pathway for selectively exciting solute molecules to high vibrational states via solvent vibration-polariton pumping. [Nat. Commun. 2022, 13 (1), 4203](https://doi.org/10.1038/s41467-022-31703-8).
 
 
 <br>
