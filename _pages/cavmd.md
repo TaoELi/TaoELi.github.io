@@ -12,7 +12,7 @@ VSC is an emerging research topic at the intersection between quantum electrodyn
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/cavmd_nonlinear.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cavmd_setup.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

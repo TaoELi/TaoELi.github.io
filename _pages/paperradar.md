@@ -16,5 +16,10 @@ With the increasing number of research papers each year, it is becoming more cha
 
 It you are interested in this service, please simply fill in the following Google Form and then you are all set.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecnIIdF-CR8UcA9x_aD_InA6vf1uGYuM_1x1M9GA352zFS0Q/viewform?embedded=true" width="640" height="1812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecnIIdF-CR8UcA9x_aD_InA6vf1uGYuM_1x1M9GA352zFS0Q/viewform?embedded=true" width="640" height="1812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+</div>
+
 
