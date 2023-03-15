@@ -13,13 +13,13 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-keywords: Tao E. Li, vibrational strong coupling, semiclassical dynamics, electronic structure theory  # add your own keywords or leave empty
+keywords: Tao E. Li, polaritons, vibrational strong coupling, semiclassical dynamics, electronic structure theory  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon:  # the emoji used as the favicon
-url: https://TaoELi.github.io # the base hostname & protocol for your site
+url: https://taoeli.org # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -35,7 +35,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -155,6 +155,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-pdf-embed
 
 # Sitemap settings
 defaults:
@@ -262,8 +263,8 @@ jekyll-diagrams:
 
 enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
-enable_bing_verification:   false  # enables bing site verification
+enable_google_verification: true  # enables google site verification
+enable_bing_verification:   true  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated

@@ -2,7 +2,7 @@
 layout: page
 permalink: /cavmd/
 title: CavMD
-description: Towards realistic simulation of polaritons in the collective regime
+description: Towards realistic simulation of polaritons in the collective regime.
 nav: true
 ---
 

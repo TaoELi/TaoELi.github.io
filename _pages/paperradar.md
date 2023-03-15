@@ -2,7 +2,7 @@
 layout: page
 permalink: /paperradar/
 title: PaperRadar
-description: A tool for recommending papers boosted by ChatGPT 
+description: A tool for recommending papers boosted by ChatGPT.
 nav: true
 ---
 
