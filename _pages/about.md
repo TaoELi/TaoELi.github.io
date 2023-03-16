@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a postdoctoral researcher at Yale University working with Professor [Sharon Hammes-Schiffer](https://www.hammes-schiffer-group.org/). My research focuses on understanding and modeling the **interactions between light and matter**, as well as **quantum molecular dynamics**. I am also interested in various technological developments in quantum computing and artificial intelligence. One of my significant research contributions is the development of the [cavity molecular dynamics (CavMD)](https://taoeli.github.io/cavmd/) approach for simulating vibrational polaritons.
 
-In addition to research, I have created a simple app called PaperRadar. This service can send you one weekly preprint recommendation based on your research record. If you are interested, please click [here](https://taoeli.github.io/paperradar/) to give it a try.
+In addition to research, I have created a simple app called [PaperRadar.com](PaperRadar.com). This service can send you weekly preprint recommendations based on your research record. If you are interested, please click [here](https://taoeli.github.io/paperradar/) to give it a try.
 
 Please feel free to contact me through email:
 
