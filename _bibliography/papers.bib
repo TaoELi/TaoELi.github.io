@@ -3,6 +3,22 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{Li2023BORTNEO,
+abstract = {Within the nuclear-electronic orbital (NEO) framework, the real-time time-dependent density functional theory (RT-NEO-TDDFT) approach enables the simulation of coupled electronic-nuclear dynamics. In this approach, the electrons and quantum nuclei are propagated in time on the same footing. A relatively small time step is required to propagate the much faster electronic dynamics, thereby prohibiting the simulation of long-time nuclear quantum dynamics. Herein, the electronic Born-Oppenheimer (BO) approximation within the NEO framework is presented. In this approach, the electronic density is quenched to the ground state at each time step, and the real-time nuclear quantum dynamics is propagated on an instantaneous electronic ground state defined by both the classical nuclear geometry and the nonequilibrium quantum nuclear density. Because the electronic dynamics is no longer propagated, this approximation enables the use of an order-of-magnitude larger time step, thus greatly reducing the computational cost. Moreover, invoking the electronic BO approximation also fixes the unphysical asymmetric Rabi splitting observed in previous semiclassical RT-NEO-TDDFT simulations of polaritons under vibrational strong coupling even for small Rabi splitting, instead yielding a stable, symmetric Rabi splitting. For intramolecular proton transfer in malonaldehyde, both RT-NEO-Ehrenfest dynamics and its BO counterpart can describe proton delocalization during the real-time nuclear quantum dynamics. Thus, the BO RT-NEO approach provides the foundation for a wide range of chemical and biological applications.},
+archivePrefix = {arXiv},
+arxivId = {2301.04076},
+author = {Li, Tao E. and Hammes-Schiffer, Sharon},
+eprint = {2301.04076},
+journal = {arXiv},
+month = {jan},
+title = {{Electronic Born-Oppenheimer Approximation in Nuclear-Electronic Orbital Dynamics}},
+url = {http://arxiv.org/abs/2301.04076},
+html = {http://arxiv.org/abs/2301.04076},
+year = {2023},
+selected={true},
+order = {20}
+}
+
 @article{Li2022iQMMM,
 abstract = {Vibrational strong coupling (VSC) provides a novel means to modify chemical reactions and energy transfer pathways. To efficiently model chemical dynamics under VSC in the collective regime, herein a hybrid quantum mechanics/molecular mechanics (QM/MM) cavity molecular dynamics (CavMD) scheme is developed and applied to an experimentally studied chemical system. This approach can achieve linear scaling with respect to the number of molecules for a dilute solution under VSC by assuming that each QM solute molecule is surrounded by an independent MM solvent bath. Application of this approach to a dilute solution of Fe(CO)$_5$ in n-dodecane under VSC demonstrates polariton dephasing to the dark modes and polariton-enhanced molecular nonlinear absorption. These simulations predict that strongly exciting the lower polariton may provide an energy transfer pathway that selectively excites the equatorial CO vibrations rather than the axial CO vibrations. Moreover, these simulations also directly probe the cavity effect on the dynamics of the Fe(CO)$_5$ Berry pseudorotation reaction for comparison to recent two-dimensional infrared spectroscopy experiments. This theoretical approach is applicable to a wide range of other polaritonic systems and provides a tool for exploring the use of vibrational strong coupling for selective infrared photochemistry.},
 archivePrefix = {arXiv},
@@ -92,7 +108,7 @@ year = {2022},
     journal = {J. Chem. Theory Comput.},
       pages = {2774--2784},
       volume = {18},
-	selected={true},
+	selected={false},
 	pdf = {2022_JCTC_NEO.pdf},
 	html = {https://doi.org/10.1021/acs.jctc.2c00096},
 	code = {https://github.com/TaoELi/semiclassical-rt-neo},
