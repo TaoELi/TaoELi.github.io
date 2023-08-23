@@ -23,4 +23,4 @@ In addition to research, I have created a simple app called [PaperRadar](https:/
 
 Please feel free to contact me through email:
 
-tao.li@yale.edu or taoli@sas.upenn.edu.
+tao.li@yale.edu
