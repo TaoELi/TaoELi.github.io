@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
     <!-- Website verification -->
@@ -12,9 +12,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tao E. Li | Page not found</title>
+    <title>Tao E. Li | First release version of the CavMD toolkit!</title>
     <meta name="author" content="Tao E. Li" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Code for running nonreactive VSC dynamics." />
     <meta name="keywords" content="Tao E. Li, polaritons, vibrational strong coupling, semiclassical dynamics, electronic structure theory" />
 
 
@@ -33,7 +33,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://taoeli.github.io/404.html">
+    <link rel="canonical" href="https://taoeli.github.io/news/2022-01-31-CavMD/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -99,20 +99,42 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- page.html -->
-        <div class="post">
+      <!-- _layouts/post.html -->
 
-          <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
-          </header>
+<div class="post">
 
-          <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="/">here</a>.</p>
+  <header class="post-header">
+    <h1 class="post-title">First release version of the CavMD toolkit!</h1>
+    <p class="post-meta">January 31, 2022</p>
+    <p class="post-tags">
+      <a href="/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
 
-          </article>
+    </p>
+  </header>
 
-        </div>
+  <article class="post-content">
+    <p>The <a href="https://github.com/TaoELi/cavity-md-ipi/releases/tag/nonreactive-vsc" target="_blank" rel="noopener noreferrer">first release version of the CavMD toolkit</a> is now available! This version has been shown to provide an efficient description of <strong>nonreactive VSC dynamics</strong>.</p>
+
+<hr>
+
+<p>CavMD, the cavity molecular dynamics simulation toolkit, is an open-source project towards efficiently simulating vibrational strong coupling (VSC).</p>
+
+<p>VSC is an emerging research topic at the intersection between quantum electrodynamics (QED) and chemistry. When a large ensemble of molecules is confined in optical or plasmonic cavities at the infrared (IR) regime,  a bright collective mode of molecular vibrations can form the Rabi splitting with a cavity mode. Under this VSC regime, it has been shown that many intriguing molecular properties can be modified inside the cavity, and there are many unsolved puzzles in this area.</p>
+
+<p>In order to better simulate VSC, I started the CavMD project at Jan 2020. The basic idea of this project is straightforward: because classical molecular dynamics (MD) can simulate the dynamics of molecular vibrations in free space quite well, if we also treat the cavity modes classically and propagate the coupled equations between molecules and cavity modes self-consistently, can we efficiently describe VSC?</p>
+
+<p>During the past two years, I have carefully examined this idea and find that this routine is fruitful. With this CavMD toolkit, I have studied many fundamental processes of VSC, including thermal equilibrium, nonequilibrium dynamics of polaritons and vibrational dark modes, etc. The CavMD description of these <strong>nonreactive VSC dynamics</strong> has shown agreement with conventional theories and recent ultrafast spectroscopy experiments; see the introduction of a recent <a href="https://arxiv.org/abs/2111.12770" target="_blank" rel="noopener noreferrer">preprint</a> for details. Moreover, CavMD also provides a simple means to <a href="https://arxiv.org/abs/2104.15121" target="_blank" rel="noopener noreferrer">design new mechanisms</a> which are impossible outside the cavity.</p>
+
+<p>With these exciting findings, here I provide the first release version of CavMD, which could be helpful to the VSC community. This project is built on top of a well-developed open-source MD package <a href="https://ipi-code.org/" target="_blank" rel="noopener noreferrer">i-PI</a>. A <a href="https://github.com/TaoELi/cavity-md-ipi/tree/master/tutorials" target="_blank" rel="noopener noreferrer">tutorial</a> is provided, and all the materials to reproduce all the figures in the existing CavMD publications on <strong>nonreactive VSC dynamics</strong> are fully open-source available. Please check the following links for details.</p>
+
+<p><a href="https://github.com/TaoELi/cavmd_examples_co2" target="_blank" rel="noopener noreferrer">https://github.com/TaoELi/cavmd_examples_co2</a></p>
+
+<p><a href="https://github.com/TaoELi/cavmd_examples_h2o" target="_blank" rel="noopener noreferrer">https://github.com/TaoELi/cavmd_examples_h2o</a></p>
+
+  </article>
+
+</div>
+
     </div>
 
     <!-- Footer -->    
